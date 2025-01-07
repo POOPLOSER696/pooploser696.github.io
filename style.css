@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    font-family: jurriaan-3d-fill, sans-serif;
+   background-color: rgb(25, 0, 31);
+   color: orange; 
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header hr {
+    flex-grow: 1;
+    border-color: rgb(197, 62, 197);
+
+}
+
+header h2 {
+    margin: 0 15px;
+
+}
+
+h3 {
+    font-family: industry-inc-cutline, sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h3 + h3 {
+    color: rgb(247, 0, 255);
+
+}
+
+#header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hp-mp {
+    display: flex;
+    gap: 30px;
+}
+
+.character-points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single-point {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.point-row {
+    display: flex;
+    gap: 5px;
+
+}
+
+.point-row span {
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.point-row .negative-point {
+    opacity: 20%;
+}
+
+#backstory p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 20px;
+
+}
+
+#backstory p:first-child {
+    color: orangered;
+    font-size: 20px;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#sw .content-container {
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content-item {
+    text-align: center;
+
+}
+
+#skills .content-item {
+    width: 230px;
+
+}
+
+#sw .content-item {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+#sw .content-item img {
+    width: 100px;
+}
+
+.content-item p {
+    font-family: jurriaan-3d-fill, sans-serif;
+    font-style: italic;
+    color: white;
+
+}
+
+#stats .content-container {
+    justify-content: space-between;
+
+}
+
+.big-number {
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+

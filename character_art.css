@@ -1,0 +1,57 @@
+.character-art {
+    width: 50%;
+    aspect-ratio: 1;
+    display: block;
+    background: #C9D2BE;
+}
+
+.character-art .row {
+    display: flex;
+}
+
+.character-art .cell {
+    width: 4%;
+    aspect-ratio: 1;
+}
+
+#row-18, #row-19, #row-20, #row-21, #row-22, #row-23, #row-24, #row-25 {
+    background: #222133;
+}
+
+.outline {
+    background: #001C17!important;
+}
+
+.cloth {
+    background: #A01839;
+}
+
+.cloth-shade {
+    background: #740E25;
+}
+
+.skin {
+    background: #FFDCA4;
+}
+
+.eyes {
+    background: #10485D;
+}
+
+.skin-shade{
+    background: #B88B6D;
+}
+
+
+.bk-outline {
+    background: #1E2643;
+}
+
+.bk-fill {
+    background: #5B6BA6;
+}
+
+.bk-fill-inner {
+    background: #0F1322;
+}
+
